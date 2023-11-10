@@ -1,0 +1,48 @@
+html {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+}
+header{
+    height: 90px;
+    margin: 0;
+    background: rgb(18, 18, 18);
+    text-align: center;
+}
+#logo{
+    float: left;
+}
+#head{
+    text-decoration: none;
+    color: white;
+}
+#desc{
+    background: rgb(18, 18, 18);
+    text-align: center;
+}
+#album img {
+    height: 150px;
+}
+.bloc {
+    background: rgb(18, 18, 18);
+}
+#lien {
+    text-decoration: none;
+    color: white;
+}
+#image img{
+    height: 200px;
+    transition: transform .1s;
+}
+#image img:hover{
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+footer {
+    height: 90px;
+    margin: 0;
+    background: rgb(18, 18, 18);
+    text-align: center;
+}

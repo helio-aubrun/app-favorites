@@ -1,0 +1,40 @@
+html {
+    background-image: url("https://i.ibb.co/Y2hX4dc/background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    color:white
+}
+header {
+    height: 90px;
+    margin: 0;
+    background:navy;
+    text-align: center;
+}
+#logo {
+    float: left;
+}
+#head {
+    text-decoration: none;
+    color: white;
+}
+.desc {
+    text-align: center;
+}
+#image img{
+    height: 200px;
+    transition: transform .1s;
+}
+#image img:hover{
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+footer {
+    height: 90px;
+    margin: 0;
+    background:navy;
+    text-align: center;
+}

@@ -1,0 +1,18 @@
+html {
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    background-image: url("https://i.ibb.co/9stXpCR/test.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#logo img{
+    height: 260px;
+    transition: transform .1s;
+}
+#logo img:hover{
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
